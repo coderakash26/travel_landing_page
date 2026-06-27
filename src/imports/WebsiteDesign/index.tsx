@@ -95,7 +95,7 @@ function LucideArrowRight() {
 
 function Button() {
   return (
-    <div className="absolute bg-[#010101] content-stretch flex gap-[10px] items-center justify-center left-[calc(83.33%-68.85px)] px-[40px] py-[14px] rounded-[100px] top-[58px] w-[189.852px]" data-name="Button">
+    <div className="absolute bg-[#010101] content-stretch flex gap-[10px] items-center justify-center interactive-button left-[calc(83.33%-68.85px)] px-[40px] py-[14px] rounded-[100px] top-[58px] w-[189.852px]" data-name="Button">
       <p className="[word-break:break-word] capitalize font-['DM_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[18px] text-white whitespace-nowrap" style={{ fontVariationSettings: '"opsz" 14' }}>
         Book trip
       </p>
@@ -177,7 +177,7 @@ function LucideArrowRight1() {
 
 function MainBoutton() {
   return (
-    <div className="bg-[#2986fe] content-stretch flex gap-[10px] items-center justify-center px-[48px] py-[20px] relative rounded-[100px] shrink-0" data-name="Main Boutton">
+    <div className="bg-[#2986fe] content-stretch flex gap-[10px] items-center justify-center interactive-button premium-glow px-[48px] py-[20px] relative rounded-[100px] shrink-0" data-name="Main Boutton">
       <p className="[word-break:break-word] capitalize font-['DM_Sans:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[18px] text-white whitespace-nowrap" style={{ fontVariationSettings: '"opsz" 14' }}>
         Book A Trip Now
       </p>
@@ -188,7 +188,7 @@ function MainBoutton() {
 
 function PalayButton() {
   return (
-    <div className="relative shrink-0 size-[63px]" data-name="Palay Button">
+    <div className="interactive-icon relative shrink-0 size-[63px]" data-name="Palay Button">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 63 63">
         <g id="Palay Button">
           <circle cx="32" cy="32" fill="var(--fill-0, white)" fillOpacity="0.3" id="Ellipse 1" r="24" />
@@ -392,7 +392,7 @@ function HeroSection() {
       <HeroImage />
       <HeroImage1 />
       <Group2 />
-      <div className="absolute flex h-[449.865px] items-center justify-center left-[calc(50%+9.91px)] top-[163.28px] w-[716.963px]">
+      <div className="absolute flex h-[449.865px] items-center justify-center left-[calc(50%+9.91px)] motion-float top-[163.28px] w-[716.963px]">
         <div className="-scale-y-100 flex-none rotate-[174.35deg]">
           <div className="h-[384.568px] relative w-[682.427px]" data-name="image 2[ biman]">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2Biman} />
@@ -488,7 +488,7 @@ function Frame11() {
 
 function Frame12() {
   return (
-    <div className="bg-white content-stretch flex gap-[12px] items-center px-[32px] py-[20px] relative rounded-[100px] shrink-0">
+    <div className="bg-white content-stretch flex gap-[12px] glass-panel interactive-button items-center px-[32px] py-[20px] relative rounded-[100px] shrink-0">
       <div aria-hidden className="absolute border-2 border-[#f0f0f0] border-solid inset-0 pointer-events-none rounded-[100px]" />
       <p className="[word-break:break-word] font-['DM_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[18px] text-[rgba(16,16,16,0.8)] whitespace-nowrap" style={{ fontVariationSettings: '"opsz" 14' }}>
         Follow
@@ -553,7 +553,7 @@ function TablerSquareRoundedChevronRight() {
 
 function Frame15() {
   return (
-    <div className="absolute left-[calc(83.33%-21px)] size-[64px] top-[1252px]">
+    <div className="absolute interactive-icon left-[calc(83.33%-21px)] size-[64px] top-[1252px]">
       <div className="absolute inset-[0_0_-1.56%_0]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 64 65">
           <g id="Frame 25">
@@ -570,7 +570,7 @@ function Frame15() {
 
 function Frame16() {
   return (
-    <div className="absolute left-[calc(91.67%-67px)] size-[64px] top-[1252px]">
+    <div className="absolute interactive-icon left-[calc(91.67%-67px)] size-[64px] top-[1252px]">
       <div className="absolute inset-[0_0_-1.56%_0]">
         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 64 65">
           <g id="Frame 26">
@@ -655,7 +655,7 @@ function Frame18() {
 
 function Frame19() {
   return (
-    <div className="bg-[#2986fe] content-stretch flex gap-[4px] items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
+    <div className="bg-[#2986fe] content-stretch flex gap-[4px] interactive-button items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
       <div className="relative shrink-0 size-[16px]">
         <div className="absolute inset-[3.94%_6.03%_12.13%_6.03%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14.069 13.4295">
@@ -681,7 +681,7 @@ function Frame20() {
 
 function Frame21() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[24px] items-center left-[128px] top-[1385px] w-[398px]">
+    <div className="absolute content-stretch flex flex-col gap-[24px] glass-card interactive-card items-center left-[128px] p-[18px] rounded-[28px] top-[1367px] w-[434px]">
       <MaskGroup />
       <Frame20 />
     </div>
@@ -737,7 +737,7 @@ function Frame25() {
 
 function Frame27() {
   return (
-    <div className="bg-[#2986fe] content-stretch flex gap-[4px] items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
+    <div className="bg-[#2986fe] content-stretch flex gap-[4px] interactive-button items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
       <div className="relative shrink-0 size-[16px]">
         <div className="absolute inset-[3.94%_6.03%_12.13%_6.03%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14.069 13.4295">
@@ -763,7 +763,7 @@ function Frame23() {
 
 function Frame22() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[24px] items-center left-[calc(33.33%+53px)] top-[1385px] w-[398px]">
+    <div className="absolute content-stretch flex flex-col gap-[24px] glass-card interactive-card items-center left-[calc(33.33%+35px)] p-[18px] rounded-[28px] top-[1367px] w-[434px]">
       <MaskGroup1 />
       <Frame23 />
     </div>
@@ -819,7 +819,7 @@ function Frame30() {
 
 function Frame32() {
   return (
-    <div className="bg-[#2986fe] content-stretch flex gap-[4px] items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
+    <div className="bg-[#2986fe] content-stretch flex gap-[4px] interactive-button items-center px-[18px] py-[10px] relative rounded-[100px] shrink-0">
       <div className="relative shrink-0 size-[16px]">
         <div className="absolute inset-[3.94%_6.03%_12.13%_6.03%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14.069 13.4295">
@@ -845,7 +845,7 @@ function Frame29() {
 
 function Frame28() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[24px] items-center left-[calc(66.67%-22px)] top-[1385px] w-[398px]">
+    <div className="absolute content-stretch flex flex-col gap-[24px] glass-card interactive-card items-center left-[calc(66.67%-40px)] p-[18px] rounded-[28px] top-[1367px] w-[434px]">
       <MaskGroup2 />
       <Frame29 />
     </div>
@@ -1139,7 +1139,7 @@ function Frame45() {
 
 function Frame49() {
   return (
-    <div className="absolute bg-[#f9f9f9] content-stretch flex items-center justify-center left-[128px] px-[40px] py-[26px] rounded-[100px] top-[3447px]">
+    <div className="absolute bg-[#f9f9f9] content-stretch flex glass-panel interactive-button items-center justify-center left-[128px] px-[40px] py-[26px] rounded-[100px] top-[3447px]">
       <p className="[word-break:break-word] font-['DM_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[18px] text-black whitespace-nowrap" style={{ fontVariationSettings: '"opsz" 14' }}>
         ABOUT US
       </p>
@@ -1209,7 +1209,7 @@ function Frame86() {
 
 function Frame54() {
   return (
-    <div className="bg-[#f9f9f9] content-stretch flex flex-col items-center p-[100px] relative rounded-[36px] shrink-0">
+    <div className="bg-[#f9f9f9] content-stretch flex flex-col glass-card interactive-card items-center p-[100px] relative rounded-[36px] shrink-0">
       <p className="mb-[-10px] relative shrink-0 text-[#2986fe] text-[124px]" style={{ fontVariationSettings: '"opsz" 14' }}>
         10+
       </p>
@@ -1222,7 +1222,7 @@ function Frame54() {
 
 function Frame55() {
   return (
-    <div className="bg-[#f9f9f9] content-stretch flex flex-col items-center p-[100px] relative rounded-[36px] shrink-0">
+    <div className="bg-[#f9f9f9] content-stretch flex flex-col glass-card interactive-card items-center p-[100px] relative rounded-[36px] shrink-0">
       <p className="mb-[-10px] relative shrink-0 text-[#2986fe] text-[124px]" style={{ fontVariationSettings: '"opsz" 14' }}>
         12K
       </p>
@@ -1235,7 +1235,7 @@ function Frame55() {
 
 function Frame56() {
   return (
-    <div className="bg-[#f9f9f9] content-stretch flex flex-col items-center p-[100px] relative rounded-[36px] shrink-0">
+    <div className="bg-[#f9f9f9] content-stretch flex flex-col glass-card interactive-card items-center p-[100px] relative rounded-[36px] shrink-0">
       <p className="mb-[-10px] relative shrink-0 text-[#2986fe] text-[124px]" style={{ fontVariationSettings: '"opsz" 14' }}>
         4.8
       </p>
@@ -1403,7 +1403,7 @@ function Frame70() {
 
 function Frame67() {
   return (
-    <div className="h-[502px] relative shrink-0 w-[398px]">
+    <div className="glass-card h-[502px] interactive-card relative rounded-[26px] shrink-0 w-[398px]">
       <div className="absolute bg-[#f9f9f9] border-4 border-[#f9f9f9] border-solid h-[502px] left-0 rounded-[26px] top-0 w-[398px]" />
       <div className="absolute bg-white border-4 border-[#f9f9f9] border-solid h-[355px] left-0 rounded-[26px] top-0 w-[398px]" />
       <Frame68 />
@@ -1464,7 +1464,7 @@ function Frame75() {
 
 function Frame72() {
   return (
-    <div className="bg-white h-[502px] relative shrink-0 w-[398px]">
+    <div className="bg-white glass-card h-[502px] interactive-card relative rounded-[26px] shrink-0 w-[398px]">
       <div className="absolute bg-[#2986fe] border-4 border-[#f9f9f9] border-solid h-[502px] left-0 rounded-[26px] top-0 w-[398px]" />
       <div className="absolute bg-white border-4 border-[#f9f9f9] border-solid h-[355px] left-0 rounded-[26px] top-0 w-[398px]" />
       <Frame73 />
@@ -1524,7 +1524,7 @@ function Frame80() {
 
 function Frame77() {
   return (
-    <div className="h-[502px] relative shrink-0 w-[398px]">
+    <div className="glass-card h-[502px] interactive-card relative rounded-[26px] shrink-0 w-[398px]">
       <div className="absolute bg-[#f9f9f9] border-4 border-[#f9f9f9] border-solid h-[502px] left-0 rounded-[26px] top-0 w-[398px]" />
       <div className="absolute bg-white border-4 border-[#f9f9f9] border-solid h-[355px] left-0 rounded-[26px] top-0 w-[398px]" />
       <Frame78 />
@@ -1972,7 +1972,7 @@ function Frame85() {
 
 export default function WebsiteDesign() {
   return (
-    <div className="bg-white relative size-full" data-name="website design">
+    <div className="bg-[radial-gradient(circle_at_12%_8%,rgba(41,134,254,0.12),transparent_28%),radial-gradient(circle_at_82%_24%,rgba(0,0,0,0.06),transparent_24%),#ffffff] motion-page relative size-full" data-name="website design">
       <HeroSection />
       <Frame14 />
       <TablerSquareRoundedChevronRight />
